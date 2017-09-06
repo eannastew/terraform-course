@@ -3,7 +3,7 @@ terraform {
     bucket = "preprod-terraform-state"
     key    = "terraform-jenkins/terraform.tfstate"
     region = "eu-west-1"
-    profile = "preprod-tf-remote-state"
+    profile = "default"
     encrypt = true
   }
 }
